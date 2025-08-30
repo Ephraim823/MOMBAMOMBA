@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="mg">
+<head>
+  <meta charset="UTF-8">
+  <title>Fihirana-n'i Ephraïm</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #f9f9f9, #e6f2ff);
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .intro {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .song-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+    .song {
+      background: white;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .song:hover {
+      transform: scale(1.02);
+    }
+    .song h3 {
+      margin: 0 0 10px;
+      color: #004080;
+    }
+    .download-btn {
+      display: inline-block;
+      padding: 8px 15px;
+      background: #004080;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    .download-btn:hover {
+      background: #0066cc;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #004080;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎵 Fihirana-n'i Ephraïm 🎵</h1>
+    <p>Mamiko sy manazava ny hira fiderana</p>
+  </header>
+
+  <main>
+    <div class="intro">
+      <p>Ity site web ity dia natao hanazavana sy hizara ny **fihirana** rehetra nataoko.  
+      Azonao jerena eto ambany ny lisitry ny hira, ary tsindrio ny bokotra raha te hisintona na hijery azy.</p>
+    </div>
+
+    <div class="song-list">
+      <div class="song">
+        <h3>Hira 189: Ampahirato Aho ‘Zao</h3>
+        <p>Hira mangataka ny fitarihan’Andriamanitra amin’ny hazavany.</p>
+        <a class="download-btn" href="#">Hijery</a>
+      </div>
+
+      <div class="song">
+        <h3>Hira 221: Aza Manadino Ahy</h3>
+        <p>Hira feno fitalahoana amin’ny Tompo mba tsy hanary antsika.</p>
+        <a class="download-btn" href="#">Hijery</a>
+      </div>
+      
+      <!-- Afaka manampy hira maro eto ianao -->
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Fihirana-n'i Ephraïm</p>
+  </footer>
+
+</body>
+</html>
