@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="mg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mombamomba ny Application</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --rose: #ffe4e1;
+      --rose-dark: #d36c6c;
+      --white: #ffffff;
+      --shadow: rgba(0, 0, 0, 0.1);
+    }
 
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--rose);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--white);
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 4px solid var(--rose-dark);
+      border-radius: 0 0 24px 24px;
+      box-shadow: 0 4px 8px var(--shadow);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      color: var(--rose-dark);
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: var(--white);
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px var(--shadow);
+    }
+
+    .container h2 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      color: var(--rose-dark);
+    }
+
+    .container p {
+      font-size: 1.1em;
+      margin-bottom: 16px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      .container {
+        margin: 20px;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MOMBAMOMBA</h1>
+    <p>Hanazavana ny momba ny application</p>
+  </header>
+
+  <div class="container">
+    <h2>Fampidirana</h2>
+    <p>Ny application dia natao hanampy ny Malagasy amin’ny alalan’ny teknolojia, amin’ny fomba manaja ny kolontsaina sy ny fiteny. Izy dia manambatra ny hatsaran-tarehy amin’ny UI/UX sy ny fahatsorana amin’ny fampiasana.</p>
+
+    <h2>Tanjona</h2>
+    <p>Ny tanjona dia ny hanome traikefa manokana ho an’ny mpampiasa, amin’ny alalan’ny onboarding mahafinaritra, layout manja, ary fahaiza-manao mifanaraka amin’ny Android rehetra.</p>
+
+    <h2>Fampiharana</h2>
+    <p>Ny app dia manohana Android 7 ka hatramin’ny 16, ary natao ho mora ampiasaina na dia amin’ny fitaovana ambany aza. Misy fanamarihana manokana amin’ny teny Malagasy, ary manaja ny finoana sy ny soatoavina nentim-paharazana.</p>
+  </div>
+
+  <footer>
+    © 2025 Ephraïm. Vita amin’ny fitiavana sy finoana.
+  </footer>
+
+</body>
+</html>
